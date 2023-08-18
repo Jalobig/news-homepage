@@ -31,13 +31,15 @@ const Nav = () => {
         </nav>
       )}
       {isActive && (
+        <>
+        <div className={classes.backdrop}></div>
         <nav className={classes.navmobile}>
           <img
             src={IconClose}
             alt="Icon of a close button"
             className={classes.navmobile__icon}
             onClick={toggleMenuHandler}
-          />
+            />
 
           <ul className={classes["navmobile__list"]}>
             <li className={classes["navmobile__list-item"]}>Home</li>
@@ -47,6 +49,7 @@ const Nav = () => {
             <li className={classes["navmobile__list-item"]}>Categories</li>
           </ul>
         </nav>
+            </>
       )}
     </>
   );
