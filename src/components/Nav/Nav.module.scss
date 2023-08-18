@@ -1,0 +1,16 @@
+.nav{
+    width: 27.5rem;
+    &__list{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        &-item{
+            color: var(--color-grey);
+            transition: all .3s;
+            &:hover{
+                cursor: pointer;
+                color: var(--color-primary);
+            }
+        }
+    }
+}

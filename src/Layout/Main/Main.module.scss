@@ -1,0 +1,11 @@
+.main {
+  margin: 0 auto;
+  max-width: 69.375rem;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(1fr, 21.875rem));
+  gap: 1.875rem;
+  grid-template-rows: fit-content;
+  
+}
+
+
