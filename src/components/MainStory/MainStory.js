@@ -5,7 +5,7 @@ import Web3Mobile from "../../assets/images/image-web-3-mobile.jpg";
 import Button from "../../components/Button/Button";
 import classes from './MainStory.module.scss'
 const MainStory = () => {
-    const media = useMediaQuery("only screen and (max-width:600px)");
+    const media = useMediaQuery("only screen and (max-width:700px)");
   return (
     <>
         {media ? (
